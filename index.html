@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="response.css">
+  <title>MeuPortifólio</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="logo">
+        <p>Portifólio </p>
+      </div>
+      <nav>
+        <ul class="header-nav">
+          <li><a href="#title_sobremim">Sobre mim</a></li>
+          <li><a href="#title_projetos">Projetos</a></li>
+          <li><a href="#title_skills">Minhas habilidades</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fa fa-bars" style="font-size: 24px"></i>
+        </div>
+      </nav>
+      <div onclick="theme_change()" class="theme_change">
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+      </div>
+    </div>
+    <hr id="line-header" />
+  </header>
+
+  <div class="menu-drop">
+    <li>
+      <a href="#title_sobremim" onclick="title_sobremin_link()">Sobre mim</a>
+    </li>
+    <li>
+      <a href="#title_projetos" onclick="title_projetos_link()">Projetos</a>
+    </li>
+    <li>
+      <a href="#title_servicos" onclick="title_servicos_link()">Serviços</a>
+    </li>
+    <li>
+      <a href="#title_skills" onclick="title_skills_link()">Minhas habilidades</a>
+    </li>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="main-principal">
+        <div class="main-direita">
+          <h1>Bem vindo! Eu sou o
+            Adrian Alves</h1>
+          <p>Desenvolvedor Front-end</p>
+          <a class="downloadButton"
+            href="https://drive.google.com/file/d/1pXnbGlUTVEbKa0_aHhBwLQXEc4dVYgHr/view?usp=drive_link"
+            download="/curriculo - Diogo.pdf" target="_blank">Download currículo</a>
+            <a href="https://www.linkedin.com/in/adrian-nascimento/" target="_blank" class="custom_links">LinkedIn</a>
+            <a href="https://github.com/AdrianMoizes" target="_blank" class="custom_links">Github</a>
+        </div>
+        <div class="main-esquerda">
+          <img src="img/7230635_3589102.svg" alt="teste">
+        </div>
+      </div>
+
+      <div id="main-sobremin">
+        <h2 id="title_sobremim">Sobre mim</h2>
+        <hr id="line-sobremim" />
+        <p id="text-sobremim">
+          Prazer, meu nome é Adrian e sou
+          <strong>Desenvolvedor Front-end</strong>. Cresci em família humilde e meu contato com a tecnologia foi tardio (12 anos tive o meu primeiro celular), porém, sempre mantive a curiosidade e perseverei com o sonho de trabalhar com a tecnologia. Hoje aos 22 anos, eu faco Engenharia de Software, buscando soluções nos mais váriados problemas, e aprimorando meus conhecimentos a cada dia.
+        </p>
+      </div>
+
+      <section class="card-icons-wrapper">
+        <div class="card-icons-wrapper">
+          <div class="card-icons-text">
+            <img src="img/sorriso01.png" alt="small-img" />
+            <h6 class="sobremim-text">Meu nome</h6>
+            <p>Adrian Moizes do Nascimento Alves</p>
+          </div>
+        </div>
+
+        <div class="card-icons-text">
+          <img src="img/envelope01.png" alt="gmail-img" />
+          <h6 class="sobremim-text">E-mail</h6>
+          <p class="excluso1">adrianmoizes123@gmail.com</p>
+        </div>
+
+        <div class="card-icons-text">
+          <img src="img/instagram (2).png" alt="instagram-img" />
+          <h6 class="sobremim-text">Instagram</h6>
+          <p>@adrian_nct</p>
+        </div>
+
+        <div class="card-icons-text">
+          <img src="img/chamada-telefonica01.png" alt="instagram-img" />
+          <h6 class="sobremim-text">Telefone</h6>
+          <p class="excluso2">+55 (83) 99955-1862</p>
+        </div>
+
+      </section>
+
+      <section id="projects">
+        <div id="title_projetos">
+          <h1>Projetos</h1>
+        </div>
+        <hr id="line-projetos" />
+        <div class="projects-cards">
+          <div class="projetcs-card">
+            <img src="img/Landingpage.png" alt="página do site">
+            <h5>Landing Page</h5>
+            <p>Tecnologias: HTML5 e CSS3</p>
+            <a href="https://github.com/AdrianMoizes/Landing-Page01" target="_blank">Repositório</a>
+            <a href="https://adrianmoizes.github.io/Landing-Page01/" target="_blank">Site</a>
+          </div>
+          <div class="projetcs-card">
+            <img src="#aqui vai imagem do projeto" alt="simbolo de desenvolvimento">
+            <h5>Projeto futuro</h5>
+            <p>Tecnologias:</p>
+            <a href="#" target="_blank">Repositório</a>
+            <a href="#" target="_blank">Site</a>
+          </div>
+          <div class="projetcs-card">
+            <img src="#" alt="icone do figma">
+            <h5>Projeto futuro</h5>
+            <p>Tecnologias:</p>
+            <a href="#" target="_blank">Repositório</a>
+            <a href="#" target="_blank">Site</a>
+          </div>
+          <div class="projetcs-card">
+            <img src="#" alt="icon de celular">
+            <h5>Projeto futuro</h5>
+            <p>Tecnologias:</p>
+            <a href="#">Repositório</a>
+            <a href="#" target="_blank">Site</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div id="title_skills">
+          <h1>Habilidades</h1>
+        </div>
+        <hr id="line_skills">
+        <div class="skills-cards">
+          <div class="skills-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="imagem do icone do html">
+            <hr class="line_skills_card">
+            <h3>HTML5</h3>
+          </div>
+
+          <div class="skills-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="imagem do icone do css">
+            <hr class="line_skills_card">
+            <h3>CSS3</h3>
+          </div>
+
+          <div class="skills-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="imagem do icone do javascript">
+            <hr class="line_skills_card">
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="skills-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="imagem do icone do react">
+            <hr class="line_skills_card">
+            <h3>React</h3>
+          </div>
+
+          <div class="skills-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="imagem do icone do sass">
+            <hr class="line_skills_card">
+            <h3>Sass</h3>
+          </div>
+
+          <div class="skills-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="imagem do icone do node">
+            <hr class="line_skills_card">
+            <h3>Node</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-custom">
+        <p>Made in <span>AdrianDev</span></p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

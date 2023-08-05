@@ -1,0 +1,486 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  transition: 0.3s all;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #c7c7f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bf0293;
+  border-radius: 10px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-nav {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+li,
+a {
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  color: #f4ededf1;
+}
+
+header {
+  width: 100%;
+  height: 10px;
+}
+
+.header {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.4rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.25rem;
+  color: #F9F9F9;
+  background-color: #cf3840b0;
+  height: 1.25rem;
+  align-items: center;
+}
+
+.theme_black #line-header {
+  background-color: #8046addb;
+}
+
+#line-header {
+  border: none;
+  box-shadow: 5px 5px 26px -7px #bf00ffd1;
+  background-color: #000000;
+  padding: 0.04rem;
+}
+
+.main-direita h1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 105%;
+  min-width: 300px;
+  max-width: 300px;
+  margin-bottom: 1px;
+}
+
+.menu-drop {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.main-principal {
+  display: flex;
+  column-gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.main-direita {
+  min-width: 348px;
+  max-width: 360px;
+}
+
+.main-direita a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-decoration: none;
+  background-color: #171717ef;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #F9F9F9;
+  padding: 0.75rem 1.125rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+
+.main-direita p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #828282;
+  margin-bottom: 20px;
+  min-width: 13.375rem;
+}
+
+.main-esquerda {
+  min-width: 26.125rem;
+  height: 30.125rem;
+}
+
+.theme_change i {
+  background-color: #000000;
+  color: #ffffffe5;
+  border-radius: 45%;
+  padding: 7px 8px 8px 9px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.theme_black i {
+  padding: 8px 7px 7px 7px;
+}
+
+.theme_black {
+  background-color: #0f0f0ef2;
+  color: #ffffffd6;
+  transition: 0.4s all;
+}
+
+.theme_black #title_servicos {
+  color: #F9F1F1;
+}
+
+.theme_black #title_skills {
+  color: #F9F1F1;
+}
+
+.theme_black .downloadButton {
+  color: #e2444c5b;
+  border: solid 1px #5757577a;
+}
+
+.theme_black .downloadButton:hover {
+  transition: 0.5s all;
+  border: solid 1px #e2444c5b;
+  color:#e2444c5b;
+}
+
+.theme_black #title_sobremim {
+  color: #F9F1F1;
+}
+
+.theme_black #title_projetos {
+  color: #F9F1F1;
+}
+
+.theme_black .sobremim-text {
+  color: #F9F1F1;
+}
+
+#title_sobremim {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 42px;
+  text-align: center;
+  color: #000000d5;
+  margin-top: 12rem;
+}
+
+#line-sobremim {
+  width: 147px;
+  margin: 0 auto;
+  padding: 1px;
+  background-color:#e2444c5b;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.card-icons-text img {
+  width: 3.125rem;
+  height: 3.125rem;
+  padding: 10px;
+  border-radius: 20px;
+  top: 910px;
+  background: #212121;
+}
+
+.card-icons-wrapper {
+  /* margin-block: 2rem; */
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-icons-text {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.card-icons-text h1 {
+  font-size: 1rem;
+}
+
+.card-icons-text h6 {
+  color: #000000e7;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4375rem;
+}
+
+.card-icons-text p {
+  color: #828282;
+  font-family: 'DM Sans';
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3125rem;
+}
+
+.excluso1 {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.excluso2 {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+#title_projetos {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 42px;
+  text-align: center;
+  color: #000000d5;
+  margin-top: 15rem;
+}
+
+#line-projetos {
+  width: 147px;
+  margin: 0 auto;
+  padding: 1px;
+  background-color:#e2444c5b;
+  border: none;
+  margin-bottom: 3.125rem;
+}
+
+.projects-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15rem;
+}
+
+.projetcs-card {
+  width: 300px;
+  height: 230px;
+  margin: 5px;
+  background: #212121;
+  padding: 0.5rem;
+  border-radius: 0.625rem;
+  border: 1px solid #333;
+  box-shadow: 1px 4px 20px 10px rgba(0, 0, 0, 0.20);
+  text-align: center;
+}
+
+.projetcs-card h5 {
+  color: #cf3a41ce;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.1625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4375rem;
+}
+
+.projetcs-card p {
+  margin-bottom: 14px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: #828282;
+}
+
+.projetcs-card a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+
+
+  padding: 0.5rem;
+  align-items: flex-start;
+
+  width: 20vw;
+  height: 10px;
+
+  border-radius: 0.9375rem;
+  background: rgba(0, 0, 0, 0.267);
+
+  height: 40px;
+}
+
+.projetcs-card a:hover {
+  transition: 500ms all;
+  border: solid 1px #e2444c5b;
+}
+
+.projetcs-card img {
+  width: 12.8rem;
+  height: 7.5rem;
+  margin-top: 5px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  border: solid 1px #0000000f;
+}
+
+#text-sobremim {
+  color: #575757;
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 60px;
+}
+
+
+.skills-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#skills {
+  margin-bottom: 15.125rem;
+}
+
+#title_skills {
+  color: #000000d5;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.625rem;
+}
+
+.skills-card {
+  width: 18.25rem;
+  height: 13.25rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  border: 1px solid #333;
+  background: #212121;
+  box-shadow: 1px 4px 20px 10px rgba(0, 0, 0, 0.20);
+  text-align: center;
+  padding: 4.5rem;
+  margin: 10px;
+}
+
+.skills-card h3 {
+  margin-top: 6px;
+  color: #828282;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+  width: 200px;
+  margin: 0 auto;
+  margin-left: -25px;
+}
+
+.skills-card img {
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+}
+
+#line_skills {
+  width: 12.625rem;
+  height: 0.125rem;
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding: 1px;
+  background-color: #e2444c5b;
+  border: none;
+  margin-bottom: 3.125rem;
+}
+
+.line_skills_card {
+  width: 9.3125rem;
+  height: 0.125rem;
+  flex-shrink: 0;
+  border: solid 1px#e2444c5b;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+footer {
+  background: #212121;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.footer-custom {
+  margin-left: 10px;
+  color: #F9F9F9;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+span {
+  color: #ffffff;
+  background-color: #e2444c5b;
+  box-shadow: 1px 4px 20px 10px #ffffff33;
+  margin-left: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
