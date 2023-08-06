@@ -83,7 +83,7 @@ header {
   padding: 0.04rem;
 }
 
-.main-direita h1 {
+.main-esquerda h1 {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
@@ -110,12 +110,12 @@ header {
   margin-top: 5rem;
 }
 
-.main-direita {
+.main-esquerda {
   min-width: 348px;
   max-width: 360px;
 }
 
-.main-direita a {
+.main-esquerda a {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -134,7 +134,7 @@ header {
   cursor: pointer;
 }
 
-.main-direita p {
+.main-esquerda p {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -145,7 +145,7 @@ header {
   min-width: 13.375rem;
 }
 
-.main-esquerda {
+.main-direita {
   min-width: 26.125rem;
   height: 30.125rem;
 }
@@ -185,7 +185,7 @@ header {
 .theme_black .downloadButton:hover {
   transition: 0.5s all;
   border: solid 1px #e2444c5b;
-  color:#e2444c5b;
+  color: #e2444c5b;
 }
 
 .theme_black #title_sobremim {
@@ -215,7 +215,7 @@ header {
   width: 147px;
   margin: 0 auto;
   padding: 1px;
-  background-color:#e2444c5b;
+  background-color: #e2444c5b;
   border: none;
   margin-bottom: 10px;
 }
@@ -296,7 +296,7 @@ header {
   width: 147px;
   margin: 0 auto;
   padding: 1px;
-  background-color:#e2444c5b;
+  background-color: #e2444c5b;
   border: none;
   margin-bottom: 3.125rem;
 }
