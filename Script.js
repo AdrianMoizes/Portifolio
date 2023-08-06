@@ -34,9 +34,6 @@ function title_projetos_link () {
   menuToggle.onclick()
 }
 
-function title_servicos_link () {
-  menuToggle.onclick()
-}
 
 function title_skills_link () {
   menuToggle.onclick()

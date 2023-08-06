@@ -184,8 +184,8 @@ header {
 
 .theme_black .downloadButton:hover {
   transition: 0.5s all;
-  border: solid 1px #ca3318;
-  color: #ca3318;
+  border: solid 1px #e2444c5b;
+  color:#e2444c5b;
 }
 
 .theme_black #title_sobremim {
@@ -215,7 +215,7 @@ header {
   width: 147px;
   margin: 0 auto;
   padding: 1px;
-  background-color: #ca3318;
+  background-color:#e2444c5b;
   border: none;
   margin-bottom: 10px;
 }
@@ -296,7 +296,7 @@ header {
   width: 147px;
   margin: 0 auto;
   padding: 1px;
-  background-color: #ca3318;
+  background-color:#e2444c5b;
   border: none;
   margin-bottom: 3.125rem;
 }
