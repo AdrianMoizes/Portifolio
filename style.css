@@ -22,7 +22,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #cf3840b0;
+  background-color: #bf0293;
   border-radius: 10px;
 }
 
@@ -73,12 +73,12 @@ header {
 }
 
 .theme_black #line-header {
-  background-color: #cf3840b0;
+  background-color: #8046addb;
 }
 
 #line-header {
   border: none;
-  box-shadow: 5px 5px 26px -7px #cf3840b0;
+  box-shadow: 5px 5px 26px -7px #bf00ffd1;
   background-color: #000000;
   padding: 0.04rem;
 }
