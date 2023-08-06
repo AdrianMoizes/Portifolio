@@ -18,11 +18,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #c7c7f0;
+  background-color: #2c2c31;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #bf0293;
+  background-color: #da230b;
   border-radius: 10px;
 }
 
@@ -67,23 +67,23 @@ header {
   justify-content: space-evenly;
   padding: 1.25rem;
   color: #F9F9F9;
-  background-color: #cf3840b0;
+  background-color: #ca3318;
   height: 1.25rem;
   align-items: center;
 }
 
 .theme_black #line-header {
-  background-color: #8046addb;
+  background-color: #ca3318;
 }
 
 #line-header {
   border: none;
-  box-shadow: 5px 5px 26px -7px #bf00ffd1;
+  box-shadow: 5px 5px 26px -7px #ca3318;
   background-color: #000000;
   padding: 0.04rem;
 }
 
-.main-direita h1 {
+.main-esquerda h1 {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
@@ -110,12 +110,12 @@ header {
   margin-top: 5rem;
 }
 
-.main-direita {
+.main-esquerda {
   min-width: 348px;
   max-width: 360px;
 }
 
-.main-direita a {
+.main-esquerda a {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -134,7 +134,7 @@ header {
   cursor: pointer;
 }
 
-.main-direita p {
+.main-esquerda p {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -145,7 +145,7 @@ header {
   min-width: 13.375rem;
 }
 
-.main-esquerda {
+.main-direita {
   min-width: 26.125rem;
   height: 30.125rem;
 }
@@ -178,14 +178,14 @@ header {
 }
 
 .theme_black .downloadButton {
-  color: #e2444c5b;
+  color: #ca3318;
   border: solid 1px #5757577a;
 }
 
 .theme_black .downloadButton:hover {
   transition: 0.5s all;
-  border: solid 1px #e2444c5b;
-  color:#e2444c5b;
+  border: solid 1px #ca3318;
+  color: #ca3318;
 }
 
 .theme_black #title_sobremim {
@@ -215,7 +215,7 @@ header {
   width: 147px;
   margin: 0 auto;
   padding: 1px;
-  background-color:#e2444c5b;
+  background-color: #ca3318;
   border: none;
   margin-bottom: 10px;
 }
@@ -296,7 +296,7 @@ header {
   width: 147px;
   margin: 0 auto;
   padding: 1px;
-  background-color:#e2444c5b;
+  background-color: #ca3318;
   border: none;
   margin-bottom: 3.125rem;
 }
@@ -321,7 +321,7 @@ header {
 }
 
 .projetcs-card h5 {
-  color: #cf3a41ce;
+  color: rgba(234, 225, 236, 0.88);
   text-align: center;
   font-family: DM Sans;
   font-size: 1.1625rem;
@@ -361,16 +361,16 @@ header {
 
 .projetcs-card a:hover {
   transition: 500ms all;
-  border: solid 1px #e2444c5b;
+  border: solid 1px #ca331879;
 }
 
 .projetcs-card img {
-  width: 12.8rem;
+  width: 17.8rem;
   height: 7.5rem;
   margin-top: 5px;
   border-radius: 8px;
   flex-shrink: 0;
-  border: solid 1px #0000000f;
+  border: solid 1px #ffffff0f;
 }
 
 #text-sobremim {
@@ -384,6 +384,78 @@ header {
   margin-bottom: 60px;
 }
 
+#line-servicos {
+  width: 147px;
+  margin: 0 auto;
+  padding: 1px;
+  background-color: #ca3318;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.servicos-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15rem;
+}
+
+.servicos-card {
+  margin: 25px;
+  width: 18.25rem;
+  height: 13.25rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  border: 1px solid #333;
+  background: #212121;
+  box-shadow: 1px 4px 20px 10px rgba(0, 0, 0, 0.20);
+}
+
+.custom_links,  .custom_links img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.servicos-card p {
+  color: #828282;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.17188rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  margin-top: 5px;
+}
+
+.servicos-card img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+}
+
+.line_card_servicos {
+  width: 60%;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: solid 1px #ca3318;
+}
+
+#title_servicos {
+  color: #000000d5;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.625rem;
+}
 
 .skills-cards {
   display: flex;
@@ -445,7 +517,7 @@ header {
   flex-shrink: 0;
   margin: 0 auto;
   padding: 1px;
-  background-color: #e2444c5b;
+  background-color: #ca3318;
   border: none;
   margin-bottom: 3.125rem;
 }
@@ -454,7 +526,7 @@ header {
   width: 9.3125rem;
   height: 0.125rem;
   flex-shrink: 0;
-  border: solid 1px#e2444c5b;
+  border: solid 1px #ca3318;
   margin: 0 auto;
   margin-bottom: 5px;
 }
@@ -477,9 +549,9 @@ footer {
 }
 
 span {
-  color: #ffffff;
-  background-color: #e2444c5b;
-  box-shadow: 1px 4px 20px 10px #ffffff33;
+  color: #fdfdfd;
+  background-color: #e061417c;
+  box-shadow: 1px 4px 20px 10px #bc88d133;
   margin-left: 1px;
   padding-left: 10px;
   padding-right: 10px;
